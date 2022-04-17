@@ -36,4 +36,8 @@ Next-js support two type of pre-rendering
  - The HTML for every page will automatically be statically generated when we build our applicaiton
 
 
- <b>Prod-Server</b>
+ <b>Prod-Server</b> - on Optimized build is created once and you deploy that build. You don't make code changes on the go once it is deployed
+ <b>Dev-Server</b> - We should be able to make changes in our code and we want that code to immediatly reflect in the brower
+ <p>For Production Builds, a pages will be re-rendered once when we run the build command </p>
+ <p>In developemnt mode, the page is pre-rendered fro every request you make</p>
+ 
