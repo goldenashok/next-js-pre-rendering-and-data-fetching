@@ -21,3 +21,19 @@
   - if SEO is of concern for your app, pre-rendering is what you want.
   - pre-rendering refers to the process of generating HTML with the necessary data for a page in our applicaiton.
   - Pre-rendering can result in better performance adn SEO
+# Pre-rendering in Next-js
+Next-js support two type of pre-rendering
+  - Static Generation
+  - Server side Rendering
+# Static Generation
+- Method of pre-rendering where the HTML pages are generated at build time
+- The HTML with all the data that makes up the content of the web page are generated in advance when you build your application
+- Recommented method to pre-render pages whenever possible
+- Page can be build once, Cached by a CDN and served to the clinet almost instantly
+- EX- Blog pages, e-commerce product pages, documentation and marketing pages
+# Static Generation - How ?
+ - Next JS, by default will pre-render every page in out app 
+ - The HTML for every page will automatically be statically generated when we build our applicaiton
+
+
+ Prod-Server
