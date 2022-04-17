@@ -36,4 +36,4 @@ Next-js support two type of pre-rendering
  - The HTML for every page will automatically be statically generated when we build our applicaiton
 
 
- Prod-Server
+ <b>Prod-Server</b>
